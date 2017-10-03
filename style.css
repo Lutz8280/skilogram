@@ -1,0 +1,44 @@
+.clear {
+    clear: both;
+}
+.menu li {
+    margin: 10px;
+    display: inline-block;
+}
+.logo {
+    position: fixed; 
+    top: 30px;
+    left: 20px; 
+}
+.content {
+    width: 400px;   
+    margin: 100px auto;
+}
+.avatar { 
+    width: 40px;   
+    height: 40px;
+    border: 1px solid black;
+    background: #c0c0c0;
+    float:left;
+}
+.menu-container {
+    position: fixed; 
+    right: 20px; 
+    top: 10px; 
+    height: 100px;
+}
+.search-form-container {
+    float:right;
+}
+.post-author-container {
+    margin-left:10px;
+    float:left;
+}
+.post-author {
+    color: #000000;
+    height: 15px;
+}
+.post-date {
+    color: #c0c0c0; 
+    height: 10px;
+}
