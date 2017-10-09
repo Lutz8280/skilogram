@@ -1,32 +1,6 @@
-﻿<!DOCTYPE html> 
-<html>
-<head> 
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8;" />
-    <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Это тренировочный документ</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<header>
-    <a href="index.html">
-        <div class="logo"></div>
-    </a>
-    <div class="menu-container">
-        <ul class="menu">
-            <li><a href="feed.html" target="_blank">Лента</a></li>
-            <li><a href="add.html" target="_blank">Добавить запись</a></li>
-            <li><a href="about.html" target="_blank">О проекте</a></li>
-        </ul>
-        <div class="search-form-container">
-            <form action="" method="get">
-                <input type="text" placeholder="Поиск..." name="search" value="">
-                <input type="submit" value="OK">
-            </form>
-        </div>
-    </div>
-</header>
-<!-- Заголовок с логотипом, меню и поиском -->
+﻿<?php
+require('/home/lutz8280/projects/skilogram/header.html>')
+?>
 <div class="content">
     <div class="post">
         <div class="post-author-container">
@@ -63,8 +37,8 @@
 <!-- Начало второго блока -->
 
 
-<!-- Конец контента -->  
-</div>
 
-</body>
-</html>
+</div>
+<?php
+require('/home/lutz8280/projects/skilogram/footer.html>')
+?>
